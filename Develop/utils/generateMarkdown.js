@@ -74,9 +74,4 @@ function renderLicenseSection(license) {
   return '';
 }
 
-module.exports = {
-  generateMarkdown,
-  renderLicenseBadge,
-  renderLicenseLink,
-  renderLicenseSection
-};
+module.exports = generateMarkdown;
